@@ -34,3 +34,16 @@ h2, h3, h4, h5, h6 {
     height: 100%;
     top: 0; right: 0; bottom: 0; left: 0;
 }
+
+#scroll-down {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+#watermark {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: rgba(200, 200, 200, 0.5);
+}
