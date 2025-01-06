@@ -1,4 +1,4 @@
-console.log("Main.js is running!");
+console.log("Why are you looking in the console?");
 
 const date = new Date();
 const year = date.getFullYear();
