@@ -2,15 +2,15 @@
     font-family: 'Anton', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
     color: white;
     margin: 0;
-    justify-items: center;
-}
-
-a {
-    color: rgb(67, 111, 213);
 }
 
 body {
     background-color: black;
+    text-align: center;
+}
+
+:not(h1) {
+    font-size: 1.2em;
 }
 
 h1 {
@@ -19,8 +19,16 @@ h1 {
     margin: 20px 0 0;
 }
 
-h2, h3, h4, h5, h6 {
-    font-size: 2em;
+a {
+    color: rgb(67, 111, 213);
+}
+
+button {
+    color: black;
+    background-color: rgb(67, 111, 213);
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
 }
 
 .fill {
@@ -46,4 +54,5 @@ h2, h3, h4, h5, h6 {
     right: 20px;
     bottom: 20px;
     color: rgba(200, 200, 200, 0.5);
+    font-size: 0.5em
 }

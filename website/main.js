@@ -5,3 +5,6 @@ const year = date.getFullYear();
 
 const massive = document.getElementById("massive");
 massive.innerText = massive.innerText.slice(0, -1) + `, even in ${year})`;
+
+const audio = new Audio("audio.mp3");
+// audio.play();
